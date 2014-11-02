@@ -1,0 +1,64 @@
+/*
+Theme Name: Zeenoble Child
+Theme URI: http://ppw.com/
+Description: Child theme for the Zeenoble theme
+Author: Bird
+Author URI: http://birdapi.com 
+Template: Zeenoble
+Version: 0.1
+
+*/
+
+@import "../zeenoble/style.css";
+
+body {
+    font-family: 'Droid Sans',Arial,Verdana,sans-serif,
+	font-size: 18px;
+    background-attachment: scroll;
+    background-color: #27737f;
+    background-position: left top;
+    background-repeat: repeat;
+}
+
+
+h4{
+	font-size: 32px;
+}
+
+#content-condo {
+    box-sizing: border-box;
+    /*padding-right: 4em;*/
+    width: 100%;
+}
+
+.widget-condo ul {
+    list-style: inside url("images/widget-icon.png") disc;
+}
+
+.widget-condo ul li{
+    font-size : 24px;
+}
+
+.postinfo-condo {
+    border-bottom: 1px solid #ddd;
+    clear: both;
+    color: #333;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0.3em 0;
+}
+
+.alignleft {
+    display: inline;
+    float: left;
+    margin: 1em 2em 1em 0;
+}
+
+.post-title {
+    color: #27737f;
+    font-size: 1.5em;
+    padding-top: 0.2em;
+}
+
+.template-frontpage{ text-align: center;}

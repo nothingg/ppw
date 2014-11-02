@@ -1,0 +1,6 @@
+Slider
+  template-tag.php
+  setting-slider.php
+
+image
+http://www.advancedcustomfields.com/resources/image/
