@@ -11,9 +11,7 @@ Template Name: Condo Template
 		
 		<?php 
 			$args = array(
-				'post_type'=>'condo',
-				'orderby'=>'title',
-				'ordery'=>'ASC'
+				'post_type'=>'condo'
 				);
 			$the_query = new WP_Query($args);
 		?>
